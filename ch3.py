@@ -1,0 +1,16 @@
+names = ['sid','rachel','paul','sylvia']
+# print(names[2])
+# print("Hello, "+names[1])
+names.append('zach')
+print(names)
+names.insert(0,'ekuba')
+print(names)
+del names[2]
+print(names)
+names.remove('sid')
+print(names)
+names.insert(1, "zach2")
+names.sort()
+print(names)
+names.sort(reverse=True)
+print(names)
