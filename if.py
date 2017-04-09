@@ -28,3 +28,11 @@ else:
     price = 10
 
 print("Your age is " + str(age) + " so your admission price is $" + str(price) + ".")
+
+requested_toppings = []
+if requested_toppings:
+    for requested_topping in requested_toppings:
+        print("Adding " + requested_topping+ ".")
+    print("\nFinished making your pizza!")
+else:
+    print("You sure you want a pizza with nothing on it?")
