@@ -43,3 +43,13 @@ for language in favorite_languages.values():
 print("\nNo duplicates")
 for language in set(favorite_languages.values()):
     print(language)
+
+
+# nesting is storing dictionaries inside of a dictionary
+alien_a = {'color':'green', 'points':5}
+alien_b = {'color':'blue', 'points':52}
+alien_c = {'color':'white', 'points':15}
+
+print("\n")
+aliens = [alien_a, alien_b, alien_c]
+print(aliens)
