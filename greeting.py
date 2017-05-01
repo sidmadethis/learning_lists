@@ -31,5 +31,15 @@ def describe_pet(pet_name, animal_type = 'dog'):
 # describe_pet("dog", "chester")
 
 # keyword argument
-describe_pet(pet_name = 'willie')
 # note the order of parameters had to be changed
+describe_pet(pet_name = 'willie')
+
+
+describe_pet(pet_name='harry', animal_type="bird")
+
+
+print("\n")
+def make_shirt(shirt_size, shirt_text):
+    print("The shirt size is "+shirt_size+" and the text on the shirt will read: " + shirt_text)
+
+make_shirt("small", "math is big time")
