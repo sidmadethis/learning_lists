@@ -12,3 +12,11 @@ def greet_user(username):
     print("Hello, " + username.title()+"!")
 
 greet_user('jesse')
+
+
+# username is the parameter, jesse is the argument
+
+def favorite_book(bookname):
+    print("One of my favorite books is "+ bookname.title())
+
+favorite_book("Alice in Wonderland")
