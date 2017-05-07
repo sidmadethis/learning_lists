@@ -6,3 +6,7 @@ def greet_users(names):
 
 usernames = ['hannah', 'ty', 'margot']
 greet_users(usernames)
+
+#
+# if you wanted a copy of a list (as to keep the original intact) you could use function_name(list_name[:])
+# the slice notation makes a [:] copy of the list
